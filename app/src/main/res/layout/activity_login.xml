@@ -54,7 +54,7 @@
         android:text="@string/register_here"
         android:onClick="goToRegister"
         android:textColor="#EB1809"
-        android:textSize="16sp"
+        android:textSize="17sp"
         app:layout_constraintEnd_toEndOf="@+id/tvRegiste456"
         app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="@+id/tvRegiste456"
