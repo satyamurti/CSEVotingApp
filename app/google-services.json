@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "293785898700",
+    "firebase_url": "https://cse23votingapp.firebaseio.com",
+    "project_id": "cse23votingapp",
+    "storage_bucket": "cse23votingapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293785898700:android:94d2e0bc5971545db6fc69",
+        "android_client_info": {
+          "package_name": "com.mrspd.csevotingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293785898700-lsipp6k8hjmmg3b5hn298c1bbgjdbkuu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mrspd.csevotingapp",
+            "certificate_hash": "aa080b11d4d6d2a3126c7711de3253348371d56f"
+          }
+        },
+        {
+          "client_id": "293785898700-auni8eveajnnoatb3gari3etr7vvhr9i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmnojOcuBQ77qhFdDhB1P7xI2jkBUNHww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293785898700-auni8eveajnnoatb3gari3etr7vvhr9i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

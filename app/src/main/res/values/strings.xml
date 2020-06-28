@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">CSEVotingApp</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="roll_number">Roll number</string>
+    <string name="enter_roll_number_and_pass">Enter Roll Number and Pass</string>
+    <string name="register_here">Register here</string>
+    <string name="dont_have_acoount">Dont have acoount?</string>
+    <string name="registeration">Registeration</string>
+    <string name="enter_last_3_digits_of_rollnumber">Enter last 3 digits of rollnumber</string>
+    <string name="register">Register</string>
+    <string name="and_our_winner_is">And Our WInner is...</string>
+    <string name="verify_your_email">Verify Your Email!!</string>
+    <string name="verification_link_has_been_sent_to_your_webmail_please_verify_and_click_refresh_to_continue">Verification link has been sent to your webmail please verify and click refresh to continue</string>
+    <string name="refresh">Refresh</string>
+    <string name="dipesh_kafle">Dipesh Kafle</string>
+    <string name="submit_your_vote">Submit Your Vote</string>
+    <string name="every_vote_counts">Every Vote Counts!!!</string>
+    <string name="csea_joint_secratory_election">CSEA Joint Secratory Election</string>
+    <string name="aryan_wadhavekar">Aryan Wadhavekar</string>
+    <string name="_152">152</string>
+    <string name="created_with_by_satyamurti">Created with ❤ by Satyamurti</string>
+    <string name="voting_app">Voting App</string>
+    <string name="results">Results</string>
+    <string name="every_vote_counts_congratulations_winners">Every vote counts, congratulations winners 🎉🎉</string>
+</resources>

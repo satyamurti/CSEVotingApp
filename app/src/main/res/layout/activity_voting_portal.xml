@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="700dp"
+    tools:context=".VotingPortalActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="700dp">
+
+        <TextView
+            android:id="@+id/tvQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/sen_regular"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text=""
+            android:textColor="#0C2F3D"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvQuestion">
+
+            <RadioButton
+                android:id="@+id/rdOption1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="88dp"
+                android:fontFamily="@font/sen_regular"
+                android:text="@string/dipesh_kafle"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:visibility="invisible"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvQuestion" />
+
+            <RadioButton
+                android:id="@+id/rdOption2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/sen_regular"
+                android:text="@string/dipesh_kafle"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:visibility="invisible"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rdOption1" />
+
+            <RadioButton
+                android:id="@+id/rdOption6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/sen_regular"
+                android:text="@string/dipesh_kafle"
+                android:textSize="24sp"
+                android:textStyle="italic"
+
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rdOption5" />
+
+            <RadioButton
+                android:id="@+id/rdOption9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/sen_regular"
+                android:text="@string/dipesh_kafle"
+
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rdOption8" />
+
+            <RadioButton
+                android:id="@+id/rdOption8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/sen_regular"
+
+                android:text="@string/dipesh_kafle"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rdOption7" />
+
+            <RadioButton
+                android:id="@+id/rdOption10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/sen_regular"
+                android:text="@string/dipesh_kafle"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rdOption9" />
+
+            <RadioButton
+                android:id="@+id/rdOption7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/sen_regular"
+
+                android:text="@string/dipesh_kafle"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rdOption6" />
+
+            <RadioButton
+                android:id="@+id/rdOption4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/sen_regular"
+                android:text="@string/dipesh_kafle"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:visibility="invisible"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rdOption3" />
+
+            <RadioButton
+                android:id="@+id/rdOption5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/sen_regular"
+
+                android:text="@string/dipesh_kafle"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rdOption4" />
+
+            <RadioButton
+                android:id="@+id/rdOption3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="24dp"
+
+                android:fontFamily="@font/sen_regular"
+                android:text="@string/dipesh_kafle"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:visibility="invisible"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rdOption2" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btRegister"
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button"
+            android:fontFamily="@font/sen_regular"
+            android:onClick="submiVote"
+            android:text="@string/submit_your_vote"
+            android:layout_marginTop="32dp"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/sen_regular"
+            android:text="@string/every_vote_counts"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:textAllCaps="true"
+            app:layout_constraintEnd_toEndOf="@+id/btRegister"
+            app:layout_constraintStart_toStartOf="@+id/btRegister"
+            app:layout_constraintTop_toBottomOf="@+id/btRegister" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
