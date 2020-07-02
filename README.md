@@ -5,7 +5,7 @@
   <img width="100px" src="https://github.com/MrSPD-2703/CSEVotingApp/blob/master/app/src/main/ic_launcher-playstore.png"/>
 </div>
 <h1 align="center">CSEVotingApp</h1>
-<p align="center">🧧 Voting app for my class to conduct upcoming CR elections securely!! ✨</p>
+<p align="center">🧧 Voting app for our class to conduct upcoming CR elections securely!! ✨</p>
 
 ## 📸 Screenshots
 
